@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="./Home.css">
+</head>
+<style>
+
+</style>
+<body>
+    <div class="contents">
+        
+        <div class="stopwatch-container">
+            <h1>Stopwatch</h1>
+            <div class="stopwatch-display">
+                <span id="hours">00</span>:
+                <span id="minutes">00</span>:
+                <span id="seconds">00</span>
+            </div>
+            <div class="stopwatch-controls">
+                <button id="start-button">Start</button>
+                <button id="pause-button" disabled>Pause</button>
+                <button id="reset-button">Reset</button>
+                <button id="lap-button">Lap</button>
+            </div>
+            <div class="lap-times">
+                <h2>Lap Times:</h2>
+                <ul id="lap-list"></ul>
+            </div>
+        </div>
+        <div class="credit">
+            <h1 style="color: white;">Developed By Karan Sethi</h1>
+        </div>
+    </div>
+
+    <script src="./Home.js">  </script>
+</body>
+</html>
